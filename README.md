@@ -16,6 +16,7 @@ Développé pour apprendre à packager une app de bureau multiplateforme.
 
 ## 📂 Structure du projet
 
+```
 memory-game-app/
 ├── src/
 ├── public/ 
@@ -24,7 +25,7 @@ memory-game-app/
 ├── vite.config.js 
 ├── dist/ 
 └── out/ 
-
+```
 ---
 
 ## 🧑‍💻 Développement
