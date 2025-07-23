@@ -46,7 +46,10 @@ npm run make
 Les fichiers se trouvent dans le dossier out/.
 Les dernières versions packagées se trouvent dans la section Releases.
 
-✨ Merci !
+```
+---
+
+## ✨ Merci !
 
 Projet fait pour s'amuser, apprendre et partager.
 Créé avec ❤️ par Stella.
