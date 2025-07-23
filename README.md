@@ -1,12 +1,46 @@
-# React + Vite
+# 🧩 Memory Game App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un petit jeu de Memory réalisé avec **React**, **Vite** et **Electron**.  
+Développé pour apprendre à packager une app de bureau multiplateforme.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Fonctionnalités
 
-## Expanding the ESLint configuration
+- 🎮 Jeu de Memory basique avec React
+- ⚡ Frontend ultra-rapide grâce à Vite
+- 🖥️ Déploiement natif grâce à Electron + Electron Forge
+- 📦 Emballé avec `asar` pour plus de sécurité
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Structure du projet
+
+memory-game-app/
+├── src/
+├── public/ 
+├── main.js 
+├── forge.config.cjs 
+├── vite.config.js 
+├── dist/ 
+└── out/ 
+
+---
+
+## 🧑‍💻 Développement
+
+```bash
+# Installation des dépendances
+npm install
+
+# Lancer le frontend Vite
+npm run dev
+
+# Lancer Electron avec le serveur Vite
+npm run start
+
+# Pour générer une version installable pour macOS, Windows ou Linux :
+npm run make
+
+Les fichiers se trouvent dans le dossier out/.
+Les dernières versions packagées se trouvent dans la section Releases.
