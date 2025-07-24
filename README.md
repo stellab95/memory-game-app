@@ -49,6 +49,29 @@ Les dernières versions packagées se trouvent dans la section Releases.
 ```
 ---
 
+# 🛠️ Installation
+
+Merci de télécharger **Memory Game** !  
+Voici comment lancer le jeu sur **macOS** et **Windows**.
+
+---
+
+## 🍏 macOS
+
+**⚠️ Comme l’app n’est pas signée, Gatekeeper peut dire qu’elle est corrompue ou bloquée.**
+
+### ✅ Débloquer l’app
+
+**Méthode rapide :**
+
+1️⃣ Télécharge et dézippe `Memory.app`  
+2️⃣ Ouvre le **Terminal**  
+3️⃣ Tape cette commande :
+
+```bash
+xattr -cr /Chemin/vers/Memory.app
+
+
 ## ✨ Merci !
 
 Projet fait pour s'amuser, apprendre et partager.
