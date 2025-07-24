@@ -54,7 +54,6 @@ Les dernières versions packagées se trouvent dans la section Releases.
 Merci de télécharger **Memory Game** !  
 Voici comment lancer le jeu sur **macOS** et **Windows**.
 
----
 
 ## 🍏 macOS
 
@@ -70,7 +69,25 @@ Voici comment lancer le jeu sur **macOS** et **Windows**.
 
 ```bash
 xattr -cr /Chemin/vers/Memory.app
+```
 
+## 🪟 Windows
+
+⚠️ Windows SmartScreen peut afficher :
+"Windows a protégé votre PC".
+✅ Lancer quand même
+
+1️⃣ Télécharge et dézippe Memory.exe
+2️⃣ Double-clique sur le fichier .exe
+3️⃣ Si tu vois l’avertissement bleu :
+
+    Clique sur « Informations complémentaires »
+
+    Clique sur « Exécuter quand même »
+
+Et c’est tout ! Bon jeu ! 🧩
+
+---
 
 ## ✨ Merci !
 
